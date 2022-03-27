@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'Pixel';
+    src: url('./fonts/FreePixel.ttf');
+}
+*{
+    font-family: 'Pixel';
+    color: #FFF;
+}
+.header-content{
+    margin-top: 100px;
+    text-align: center;
+}
+body {
+    background-color: #030303;
+    align-items: center;
+  }
+
+  h1 {
+    margin: 0;
+    font-size: 45px;
+  }
+
+  #fireCanvas {
+    margin-top: 70px;
+    width: 150px;
+     height: 150px;
+     display: block;
+  }
+
+   .madeira img{
+    align-content: center;
+    margin-top: 90px;
+    display: block;
+  
+    width: 150px;
+     height: 150px;
+    }
+
+
+  .margin {
+    margin: 5px;
+  }
