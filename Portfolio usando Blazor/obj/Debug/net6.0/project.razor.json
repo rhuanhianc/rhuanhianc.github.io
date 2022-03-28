@@ -8,6 +8,39 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
+        "HashCode": 613662517,
+        "Kind": "Components.Component",
+        "Name": "Portfolio_usando_Blazor.App",
+        "AssemblyName": "Portfolio usando Blazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Portfolio_usando_Blazor.App"
+        }
+      },
+      {
+        "HashCode": 118203138,
+        "Kind": "Components.Component",
+        "Name": "Portfolio_usando_Blazor.App",
+        "AssemblyName": "Portfolio usando Blazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Portfolio_usando_Blazor.App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Portfolio_usando_Blazor.App",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": -1540386971,
         "Kind": "Components.Component",
         "Name": "Portfolio_usando_Blazor.Pages.Counter",
@@ -70,39 +103,6 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "Portfolio_usando_Blazor.Pages.FetchData",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -1921491204,
-        "Kind": "Components.Component",
-        "Name": "Portfolio_usando_Blazor.Pages.Index",
-        "AssemblyName": "Portfolio usando Blazor",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Portfolio_usando_Blazor.Pages.Index"
-        }
-      },
-      {
-        "HashCode": -472614210,
-        "Kind": "Components.Component",
-        "Name": "Portfolio_usando_Blazor.Pages.Index",
-        "AssemblyName": "Portfolio usando Blazor",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Portfolio_usando_Blazor.Pages.Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Portfolio_usando_Blazor.Pages.Index",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -285,39 +285,6 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "Portfolio_usando_Blazor.Shared.NavMenu",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 613662517,
-        "Kind": "Components.Component",
-        "Name": "Portfolio_usando_Blazor.App",
-        "AssemblyName": "Portfolio usando Blazor",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Portfolio_usando_Blazor.App"
-        }
-      },
-      {
-        "HashCode": 118203138,
-        "Kind": "Components.Component",
-        "Name": "Portfolio_usando_Blazor.App",
-        "AssemblyName": "Portfolio usando Blazor",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Portfolio_usando_Blazor.App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Portfolio_usando_Blazor.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
