@@ -1,3 +1,5 @@
+env:
+  PUBLISH_DIR: Portfolio usando Blazor/wwwroot
 name: gh-pages
 
 on: [push]
@@ -21,5 +23,5 @@ jobs:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         BASE_BRANCH: master # The branch the action should deploy from.
         BRANCH: gh-pages-from-actions # The branch the action should deploy to.
-        FOLDER: Portfolio usando Blazor/wwwroot # The folder the action should deploy.
+        FOLDER: build/wwwroot # The folder the action should deploy.
         SINGLE_COMMIT: true
