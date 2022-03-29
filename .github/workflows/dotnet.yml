@@ -1,4 +1,4 @@
-name: Deploy to Github 
+name: Deploy to Github Pages
 
 on:
   push:
@@ -14,15 +14,13 @@ jobs:
     - name: Setup .NET Core SDK
       uses: actions/setup-dotnet@v1
       with:
-        dotnet-version: '3.1.301'
+        dotnet-version: '3.1.201'
     
     - name: Build Application
-      run: dotnet publish -c Release ./Portfolio usando Blazo/Portfolio usando Blazo.csproj
-    - name: Deploy to Github Pages
-      uses: JamesIves/github-pages-deploy-action@releases/v3
+      run: dotnet publish -c Release ./PortfolioUsingBlazor/PortfolioUsingBlazor.csproj
+
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v3
       with:
-        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        BASE_BRANCH: master # The branch the action should deploy from.
-        BRANCH: gh-pages-from-actions # The branch the action should deploy to.
-        FOLDER: build/wwwroot # The folder the action should deploy.
-        SINGLE_COMMIT: true
+           github_token: ${{ secrets.GITHUB_TOKEN }}
+           publish_dir: ./PortfolioUsingBlazor/bin/Release/netstandard2.1/publish/wwwroot/
