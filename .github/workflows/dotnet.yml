@@ -1,5 +1,10 @@
+
 name: Deploy to Github Pages
-on: [push]
+
+
+on:
+  push:
+    branches: [ master ]
 
 jobs:
   build:
@@ -9,11 +14,13 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Setup .NET Core
+
+    - name: Setup .NET Core SDK
       uses: actions/setup-dotnet@v1
       with:
         dotnet-version: 3.1.301
-    - name: Publish with dotnet
-      run: dotnet publish ./Portfolio usando Blazo/Portfolio usando Blazo.csproj
+    - name: Build Application
+      run: dotnet publish -c Release ./Portfolio usando Blazo/Portfolio usando Blazo.csproj
     - name: Deploy to Github Pages
       uses: JamesIves/github-pages-deploy-action@releases/v3
       with:
