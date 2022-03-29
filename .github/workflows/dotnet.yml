@@ -13,7 +13,7 @@ jobs:
       with:
         dotnet-version: 3.1.301
     - name: Publish with dotnet
-      run: dotnet publish -c Release ./Portfolio usando Blazo/Portfolio usando Blazo.csproj
+      run: dotnet publish ./Portfolio usando Blazo/Portfolio usando Blazo.csproj
     - name: Deploy to Github Pages
       uses: JamesIves/github-pages-deploy-action@releases/v3
       with:
