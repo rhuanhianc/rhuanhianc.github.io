@@ -17,7 +17,7 @@ jobs:
         dotnet-version: '3.1.201'
     
     - name: Build Application
-      run: dotnet publish -c Release ./Portfolio usando Blazo/GitHubPagesSpa.csproj
+      run: dotnet publish -c Release ./Portfolio usando Blazo/Portfolio usando Blazo.csproj
 
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
