@@ -1,8 +1,6 @@
 name: Deploy to Github Pages
 
 on:
-  schedule: # execute every 12 hours
-    - cron: "* * */30 * *"
   workflow_dispatch:
 
 jobs:
@@ -15,7 +13,7 @@ jobs:
     - name: Setup .NET Core SDK
       uses: actions/setup-dotnet@v1
       with:
-        dotnet-version: '3.1.201'
+        dotnet-version: '6.0.x'
     
     - name: Build Application
       run: dotnet publish -c Release ./PortfolioUsingBlazor/PortfolioUsingBlazor.csproj
